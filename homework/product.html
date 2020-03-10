@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Webpage Title -->
+    <title>Product</title>
+
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" , shrink-to-fit=no>
+
+    <!-- Bootstrap CSS 부트스트랩의 양식을 사용하려면 class, id, aria-label, aria-describedby 등의 이름을 변경하면 안 되는 건지 궁급합니다. -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="product.css">
+
+    <!-- JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    
+    <!-- CSS Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Cute+Font&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="product-image"></div>
+        <div class="product-content">
+            <span><strong>해물톡톡</strong></span>
+            <span>가격: 12,000원 / 개</span>
+            <p>해물톡톡 오집니다. 입안에서 남해가 펼쳐집니다. 파/고추 이런 거 안 썰어넣어도 됩니다. 그냥 라면에 해물톡톡 뿌리면 그대로 존맛탱 식사 완성이에요. 다른 분들 사지마세요. 나만
+                먹을꺼니까.</p>
+        </div>
+        <div class="product-order">
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1">주문자 성함</span>
+                </div>
+                <input type="text" class="form-control" placeholder="성함을 입력해주세요" aria-label="Username"
+                    aria-describedby="basic-addon1">
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <label class="input-group-text" for="inputGroupSelect01">수량</label>
+                </div>
+                <select class="custom-select" id="inputGroupSelect01">
+                    <option selected>-- 수량을 선택하세요 --</option>
+                    <option value="1">1통</option>
+                    <option value="2">2통</option>
+                    <option value="3">3통</option>
+                </select>
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1">주소</span>
+                </div>
+                <input type="text" class="form-control" placeholder="○○시 ○○구" aria-label="Username"
+                    aria-describedby="basic-addon1">
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1">연락처</span>
+                </div>
+                <input type="text" class="form-control" placeholder="- 없이 번호만 입력해주세요" aria-label="Username"
+                    aria-describedby="basic-addon1">
+            </div>
+            <div class="btn-order">
+                <button type="button" class="btn btn-primary btn-lg">주문하기</button>
+            </div>
+        </div>
+
+</body>
+
+</html>
