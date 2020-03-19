@@ -7,6 +7,7 @@
     margin: 20px auto auto auto;
     padding: 20px 40px;
 }
+
 .product-image {
     width: 100%;
     height: 300px;
@@ -21,19 +22,21 @@
     margin-bottom: 20px;
 }
 
-.product-content > span > strong {
+.product-content>span>strong {
     font-size: 32px;
 }
 
 .btn-order {
-    
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
 }
 
-.btn-order > button {
+.btn-order>button {
     width: 250px;
+}
+
+.order-list {
+    margin-top: 40px;
 }
