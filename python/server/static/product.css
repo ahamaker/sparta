@@ -1,0 +1,42 @@
+* {
+    font-family: 'Cute Font', cursive;
+}
+
+.wrap {
+    width: 600px;
+    margin: 20px auto auto auto;
+    padding: 20px 40px;
+}
+
+.product-image {
+    width: 100%;
+    height: 300px;
+    background-image: url("http://www.livingpick.com/shopimages/partysale/010002000024.jpg?1574224007");
+    background-size: cover;
+    background-position: left-top;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.product-content {
+    margin-bottom: 20px;
+}
+
+.product-content>span>strong {
+    font-size: 32px;
+}
+
+.btn-order {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-order>button {
+    width: 250px;
+}
+
+.order-list {
+    margin-top: 40px;
+}
